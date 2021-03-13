@@ -6,6 +6,10 @@ const profile = require('./routes/api/profile');
 const posts = require('./routes/api/posts');
 const app = express();
 
+//Body-parser config
+app.use(express.urlencoded({extended: false}));
+app.use(express.json());
+
 //Db config
 const db = keys.mongoURI;
 mongoose
