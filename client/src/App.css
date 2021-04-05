@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 img {
@@ -8,7 +8,7 @@ img {
 
 .landing {
   position: relative;
-  background: url('./img/showcase.jpg') no-repeat;
+  background: url("./img/showcase.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
